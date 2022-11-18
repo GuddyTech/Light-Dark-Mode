@@ -10,6 +10,7 @@
 
 
 body{
+    margin: 2% 5%;
 
     .main-div{
 
@@ -28,7 +29,25 @@ body{
             }
 
             .div-2{
-                
+
+                .btn{
+                    height: 30px;
+                    width: 80px;
+                    margin: auto;
+                    border: 1px solid black;
+                    color: white;
+                    background-color: black;
+                }
+
+                .cont{
+                    height: 30px;
+                    width: 80px;
+                    margin-left: 20px;
+                    border: 1px solid black;
+                    color: black;
+                    background-color: white;
+                }
+
             }
 
         }
