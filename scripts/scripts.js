@@ -1,13 +1,20 @@
 const bodyEl = document.body;
-const buttonEL = document.getElementById("btn");
+const buttonEl = document.getElementById("btn");
 // const continue = document.getElementById("cont");
 
+buttonEl.addEventListener("click", toggleDarkMode);
+
 function toggleDarkMode() {
-    return darkMode.toggleAttribute("dark");
+    bodyEl.classList.toggle("dark");
+    if(buttonEl.innerHTML === "DARK"){
+        buttonEl.innerHTML = "LIGHT";
+        buttonEl.setAttribute("style", "background-color: #fff; color: #000");
+    } else {
+        buttonEl.innerHTML = "DARK";
+    }
 }
 
-
-
-function continuePage() {
+// function continuePage() {
+  
  
-}
+// }
